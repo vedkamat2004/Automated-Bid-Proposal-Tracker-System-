@@ -127,7 +127,7 @@ export default function Dashboard() {
       </div>
 
       {/* Charts Section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
         <div className="chart-container" data-testid="status-chart">
           <h3 className="text-lg font-semibold mb-4">Opportunities by Status</h3>
           <ResponsiveContainer width="100%" height={300}>
@@ -164,7 +164,7 @@ export default function Dashboard() {
             </PieChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </div> */}
 
       {/* Recent Activities */}
       <div className="chart-container" data-testid="recent-opportunities">
